@@ -1,0 +1,179 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Teezyvisuals</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+   <!-- HERO / LANDING -->
+  <section class="hero" id="hero">
+    <div class="hero-card">
+      <img src="portfolio.png" alt="Profile Photo" />
+      <h1>Teezyvisuals</h1>
+      <p>Graphic Designer | Visual Artist</p>
+      <button class="btn" id="exploreBtn">Explore My Work</button>
+    </div>
+  </section>
+
+  <!-- MAIN CONTENT (hidden initially) -->
+  <main id="mainContent" class="hidden">
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <h1>Teezyvisuals</h1>
+    <div class="nav-actions">
+      <a href="Teezyvisuals_visuals.pdf" class="btn-outline">Download CV</a>
+      <button id="themeToggle">🌙</button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <h1>Professional Graphic Designer</h1>
+    <p>
+      I create visually compelling designs that help brands stand out,
+      connect, and convert.
+    </p>
+  </section>
+
+  <!-- ABOUT -->
+<section class="about" id="about">
+  <div class="about-container">
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p>
+        I’m <strong>Teezyvisuals</strong>, a creative graphic designer focused on
+        producing clean, modern, and impactful visuals that help brands stand
+        out and grow. I specialize in social media design, branding, and visual
+        identity for businesses and creatives.
+      </p>
+      <p>
+        My goal is simple: create designs that don’t just look good, but
+        communicate clearly and deliver results.
+      </p>
+    </div>
+
+    <div class="about-stats">
+      <div>
+        <h3>3+</h3>
+        <span>Years Experience</span>
+      </div>
+      <div>
+        <h3>100+</h3>
+        <span>Designs Created</span>
+      </div>
+      <div>
+        <h3>50+</h3>
+        <span>Happy Clients</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+  <h2>Services</h2>
+
+  <div class="services-grid">
+    <div class="service-card">
+      <h3>Social Media Design</h3>
+      <p>
+        Eye-catching Instagram, Facebook, and promotional designs that boost
+        engagement and brand visibility.
+      </p>
+    </div>
+
+    <div class="service-card">
+      <h3>Brand Identity</h3>
+      <p>
+        Complete brand visuals including color systems, typography, and brand
+        direction to build trust and recognition.
+      </p>
+    </div>
+
+    <div class="service-card">
+      <h3>Logo Design</h3>
+      <p>
+        Clean, memorable logos designed to represent your brand professionally
+        across all platforms.
+      </p>
+      
+    </div>
+
+    <div class="service-card">
+      <h3>Print Design</h3>
+      <p>
+        High-quality flyers, posters, banners, and print materials that stand
+        out both online and offline.
+      </p>
+    </div>
+  </div>
+</section>
+
+  <!-- CATEGORIES -->
+  <section class="categories" id="categories"></section>
+
+  <!-- PROJECTS -->
+  <section class="projects" id="projects"></section>
+
+  <div id="projectModal" class="modal hidden">
+  <div class="modal-content">
+    <span id="closeModal">&times;</span>
+    <h2 id="modalTitle"></h2>
+    <p id="modalImpact"></p>
+    <div id="modalImages" class="modal-images"></div>
+  </div>
+</div>
+
+<!-- IMAGE LIGHTBOX -->
+<div id="lightbox" class="lightbox hidden">
+  <span id="lightboxClose">&times;</span>
+  <img id="lightboxImg" />
+</div>
+
+<div id="lightbox" class="lightbox hidden">
+  <span id="lightboxClose">&times;</span>
+  <img id="lightboxImg" />
+</div>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials">
+    <h2>What Clients Say</h2>
+    <div class="testimonial-grid">
+      <div>"Very creative and professional. Highly recommended." – Client A</div>
+      <div>"Delivered beyond expectations and on time." – Client B</div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact">
+    <h2>Contact Me</h2>
+
+    <form action="https://api.web3forms.com/submit" 
+    method="POST"
+    class="contact-form"
+    >
+  <input type="hidden" name="access_key" value="8848b6cc-3fa1-4885-b9db-d6d27af02c14">
+  <input type="text" name="name" placeholder="Your name">
+  <input type="email" name="email" placeholder="Input your email" required>
+  <textarea name="message" placeholder="Your message"></textarea>
+  <button type="submit">Submit</button>
+</form>
+
+    <div class="socials">
+      <a class="ig" href="#">Instagram</a>
+      <a class="fb" href="#">Facebook</a>
+      <a class="tt" href="#">TikTok</a>
+      <a href="mailto:teezyvisuals0@gmail.com">Email</a>
+      <a href="tel:+2247061851267">Call</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Teezyvisuals | All Rights Reserved
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
