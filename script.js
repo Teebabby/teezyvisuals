@@ -1,4 +1,4 @@
-/* =====================================================
+ /* =====================================================
    LIGHTBOX ELEMENTS (single image view)
 ===================================================== */
 
@@ -32,7 +32,11 @@ const galleries = {
     "images/social/social 10.jpg",
   ],
 
-  Print: ["images/print/print 1.jpg", "images/print/print 2.jpg"],
+  Print: [
+    "images/print/print 1.jpg",
+    "images/print/print 2.jpg",
+    "images/print/print 3.jpg",
+  ],
 
   Logos: [
     "images/logos/logo 1.png",
